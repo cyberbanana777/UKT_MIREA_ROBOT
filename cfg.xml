@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<costume id="AT.UKT" pps="500" bufRX="310" bufTX="310">
+  <outControl ip="127.0.0.1" port="10099" pps="500" />
+  <jsonStream host="192.168.123.162" port="34567" pps="100" />
+  <!--jsonStream host="192.168.123.162" port="34567" pps="100" /-->
+
+  <!--jsonStream host="192.168.11.1" port="34567" pps="100" /-->
+  <voltage>
+    <raw index="-1" type="_int16" />
+  </voltage>
+  <joints>
+    <joint name="L.ShoulderF" scaler="-0.08">
+      <raw index="130" type="_int16" offset="0" />
+    </joint>
+    <joint name="L.ShoulderS" scaler="0.08789063">
+      <raw index="262" type="_int16" offset="-1310" />
+    </joint>
+    <joint name="L.ElbowR" scaler="0.08789063">
+      <raw index="260" type="_int16" offset="-2330" />
+    </joint>
+    <joint name="L.Elbow" scaler="-0.02">
+      <raw index="162" type="_int16" offset="0" />
+    </joint>
+    <joint name="L.WristR" scaler="0.085">
+      <raw index="146" type="_int16" offset="0" />
+    </joint>
+    <joint name="L.WristS" scaler="0.08789063">
+      <raw index="258" type="_int16" offset="-1931" />
+    </joint>
+    <joint name="L.WristF" scaler="-0.08789063">
+      <raw index="256" type="_int16" offset="-2089" />
+    </joint>
+    <joint name="L.Finger.Index" scaler="-0.085">
+      <raw index="178" type="_int16" offset="-712" />
+    </joint>
+    <joint name="L.Finger.Little" scaler="-0.085">
+      <raw index="184" type="_int16" offset="-1023" />
+    </joint>
+    <joint name="L.Finger.Middle" scaler="-0.085">
+      <raw index="180" type="_int16" offset="-1734" />
+    </joint>
+    <joint name="L.Finger.Ring" scaler="-0.085">
+      <raw index="182" type="_int16" offset="-769" />
+    </joint>
+    <joint name="L.Finger.ThumbS" scaler="0.085">
+      <raw index="186" type="_int16" offset="-2070" />
+    </joint>
+    <joint name="L.Finger.Thumb" scaler="0.085">
+      <raw index="188" type="_int16" offset="-863" />
+    </joint>
+    <joint name="R.ShoulderF" scaler="0.08">
+      <raw index="2" type="_int16" offset="0" />
+    </joint>
+    <joint name="R.ShoulderS" scaler="0.08789063">
+      <raw index="278" type="_int16" offset="-2818" />
+    </joint>
+    <joint name="R.ElbowR" scaler="0.08789063">
+      <raw index="276" type="_int16" offset="-2120" />
+    </joint>
+    <joint name="R.Elbow" scaler="0.02">
+      <raw index="34" type="_int16" offset="0" />
+    </joint>
+    <joint name="R.WristR" scaler="0.085">
+      <raw index="18" type="_int16" offset="0" />
+    </joint>
+    <joint name="R.WristS" scaler="0.08789063">
+      <raw index="274" type="_int16" offset="-1935" />
+    </joint>
+    <joint name="R.WristF" scaler="0.08789063">
+      <raw index="272" type="_int16" offset="-1848" />
+    </joint>
+    <joint name="R.Finger.Index" scaler="-0.085">
+      <raw index="50" type="_int16" offset="-2963" />
+    </joint>
+    <joint name="R.Finger.Little" scaler="-0.085">
+      <raw index="56" type="_int16" offset="-3324" />
+    </joint>
+    <joint name="R.Finger.Middle" scaler="-0.085">
+      <raw index="52" type="_int16" offset="-3330" />
+    </joint>
+    <joint name="R.Finger.Ring" scaler="-0.085">
+      <raw index="54" type="_int16" offset="-3307" />
+    </joint>
+    <joint name="R.Finger.ThumbS" scaler="0.085">
+      <raw index="58" type="_int16" offset="-1557" />
+    </joint>
+    <joint name="R.Finger.Thumb" scaler="0.085">
+      <raw index="60" type="_int16" offset="-3561" />
+    </joint>
+  </joints>
+</costume>
